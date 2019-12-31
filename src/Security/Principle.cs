@@ -5,6 +5,7 @@ namespace Security
     public interface Principle
     {
         string GetUsername();
+        
         Credential GetCredential();
 
         bool IsActive();
